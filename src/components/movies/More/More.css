@@ -1,0 +1,29 @@
+.more {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.more__button {
+  padding: 10px 20px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  min-width: 240px;
+  transition: opacity .3s, transform .3s;
+}
+
+.more__button:active {
+  transform: scale(0.9);
+}
+
+.more__button:hover {
+  opacity: 0.8;
+}
+@media (min-width: 650px) {
+  .more__button {
+    min-width: 320px;
+  }
+}

@@ -1,0 +1,43 @@
+ .authlinks__buttons {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.authlinks__button {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    transition: opacity .2s linear;
+}
+
+.authlinks__button:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.authlinks_signup {
+    color: #000;
+}
+
+.authlinks_signin {
+    margin-left: 30px;
+    padding: 8px 20px;
+    color: #000;
+    background-color: #2BE080;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .authlinks__button {
+      font-size: 10px;
+    }
+
+    .authlinks_signin {
+      margin-left: 14px;
+      padding: 7px 12px;
+    }
+}

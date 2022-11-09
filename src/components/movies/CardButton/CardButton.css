@@ -1,0 +1,31 @@
+.card-button {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin-right: 14px;
+  border: none;
+  border-radius: 36px;
+  transition: opacity .2s linear;
+  grid-area: movie-card__button;
+}
+
+.card-button:active {
+  transform: scale(0.9);
+}
+
+.card-button:hover {
+  opacity: 0.8;
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.card-button_type_done {
+    background: url(../../../images/save-active.svg) center no-repeat;
+}
+
+.card-button_type_delete {
+  background: url(../../../images/delete.svg) center no-repeat;
+}
+.card-button_type_save {
+  background: url(../../../images/save-inactive.svg) center no-repeat;
+}
