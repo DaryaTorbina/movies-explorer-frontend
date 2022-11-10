@@ -1,5 +1,5 @@
 .movie-card-list {
-  padding-top: 40px;
+  padding-top: 75px;
   padding-bottom: 30px;
   list-style: none;
   margin: 0;
@@ -21,5 +21,10 @@
   .movie-card-list {
     padding-bottom: 10px;
     gap: 32px;
+  }
+}
+@media (max-width: 650px) {
+  .movie-card-list {
+    padding-top: 40px;
   }
 }

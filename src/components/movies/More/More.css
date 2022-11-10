@@ -8,7 +8,8 @@
 .more__button {
   padding: 10px 20px;
   display: block;
-  border: none;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
   cursor: pointer;
   background-color: #f9f9f9;
   min-width: 240px;
@@ -25,5 +26,6 @@
 @media (min-width: 650px) {
   .more__button {
     min-width: 320px;
+    /* margin-right: 0; */
   }
 }
