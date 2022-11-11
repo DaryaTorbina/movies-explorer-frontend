@@ -1,0 +1,148 @@
+.editprofile {
+  display: flex;
+  justify-content: center;
+}
+
+.editprofile__form {
+  padding: 75px 0 0;
+  max-width: 410px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editprofile__hello {
+  margin: 0 0 123px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.editprofile__inputs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.editprofile__input {
+  margin: 0;
+  padding: 0 0 17px;
+  width: 100%;
+  font-weight: 500;
+  border-bottom: 1px solid #E8E8E8;
+  font-size: 11px;
+  line-height: 13px;
+  box-sizing: border-box;
+}
+
+.editprofile__input:last-of-type {
+  padding-top: 17px;
+  padding-bottom: 0;
+  border: none;
+}
+
+.editprofile__input-text {
+  border-bottom: 1px solid #E8E8E8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.editprofile__input-text:last-of-type {
+  border: none;
+}
+
+.editprofile__input-text_name {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.editprofile__input-text_email {
+  grid-row: 2;
+  grid-column: 2;
+  justify-content: flex-end;
+}
+
+.editprofile__data {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: end;
+  font-size: 11px;
+  line-height: 13px;
+  background: transparent;
+}
+
+.editprofile__edit-button {
+  margin: 220px 0 16px;
+  border: none;
+  background-color: transparent;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity .2s linear;
+}
+
+.editprofile__edit-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.editprofile__edit-button:disabled {
+  opacity: 30%;
+}
+
+.editprofile__out-button {
+  color: #EE3465;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  transition: opacity .2s linear;
+}
+
+.editprofile__out-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+  .editprofile__form {
+    padding: 230px 0 0;
+  }
+
+  .editprofile__hello {
+    margin: 0 0 96px;
+  }
+
+  .editprofile__edit-button {
+    margin: 210px 0 16px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .editprofile__form {
+    padding: 79px 0 0;
+    max-width: 260px;
+  }
+
+  .editprofile__hello {
+    margin: 0 0 80px;
+  }
+
+  .editprofile__edit-button {
+    font-size: 12px;
+  }
+
+  .editprofile__out-button {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
