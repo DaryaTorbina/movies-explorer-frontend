@@ -16,8 +16,10 @@
 *3. запустить сервер:*<br/>
  `npm start`<br/>
 
+ Ссылка на проект: movies-explorer-api:
+'http://dip.back.nomoredomains.club'
 Ссылка на проект: movies-explorer-frontend:
-(добавлю в финальных правках после ревью dip.movi.nomoredomains.club)
+(http://dip.movi.nomoredomains.club)
 
 Ссылка на макет проекта в фигме:
 https://www.figma.com/file/bxaH8O0nHXBjvGEe2d7mnD/Diploma-(Torbina)?node-id=891%3A3857&t=KPpDi89vMQ26nR7c-0

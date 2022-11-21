@@ -1,5 +1,5 @@
 // export const BASE_URL = "http://localhost:3000";
-export const BASE_URL = 'http://dip.back.nomoredomains.club';
+export const BASE_URL = 'https://dip.back.nomoredomains.club';
 
 export const shortFilmDuration = 40;
 
