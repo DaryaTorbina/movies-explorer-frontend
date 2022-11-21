@@ -30,3 +30,8 @@ https://www.figma.com/file/bxaH8O0nHXBjvGEe2d7mnD/Diploma-(Torbina)?node-id=891%
 - BEM
 - JavaScript
 - React
+
+
+
+ССылка на пулреквест
+https://github.com/DaryaTorbina/movies-explorer-frontend/pull/2
